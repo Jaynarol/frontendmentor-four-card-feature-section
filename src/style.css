@@ -718,19 +718,7 @@ video {
     grid-row: 3/span 2;
   }
 
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-\[repeat\(3\2c 100px\)\] {
-    grid-template-columns: repeat(3,100px);
-  }
-
-  .md\:grid-cols-\[repeat\(3\2c 300px\)\] {
-    grid-template-columns: repeat(3,300px);
+  .md\:grid-cols-\[repeat\(3\2c fit-content\(300px\)\)\] {
+    grid-template-columns: repeat(3,fit-content(300px));
   }
 }
